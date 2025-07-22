@@ -4,38 +4,54 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Semillas de Vida</title>
+
+  <!-- 🔗 Estilos -->
   <link rel="stylesheet" href="style.css" />
+
+  <!-- 💚 Manifest para PWA (opcional) -->
+  <link rel="manifest" href="manifest.json" />
 </head>
 <body>
   <div class="huerto">
+    <!-- 🌱 Brote simbólico -->
     <img src="brote.png" alt="Brote espiritual" class="brote" />
 
-    <h2 id="saludo"></h2>
-    <blockquote id="cita"></blockquote>
+    <!-- 👋 Saludo diario personalizado -->
+    <h2 id="saludo">🌄 Bienvenido</h2>
+
+    <!-- 📖 Mensaje y reflexión espiritual -->
+    <blockquote id="cita">Cargando semilla...</blockquote>
     <p id="reflexion"></p>
 
+    <!-- 🧘 Presencia espiritual -->
     <img src="personaje.png" alt="Personaje espiritual" class="personaje" />
-    <audio id="musica" src="musica.mp3" loop autoplay></audio>
+    <audio id="musica" src="musica.mp3" loop></audio>
 
+    <!-- 💬 Reacciones simbólicas -->
     <div class="reacciones">
-      <button onclick="reaccionar(true)">👍</button>
-      <button onclick="reaccionar(false)">👎</button>
-      <span id="likes">0 👍 / 0 👎</span>
+      <button onclick="reaccionar('cita', true)">👍</button>
+      <button onclick="reaccionar('cita', false)">👎</button>
+      <span id="likes-cita">0 👍 / 0 👎</span>
     </div>
 
+    <!-- 🗣️ Comentarios del usuario -->
     <textarea id="comentario" placeholder="Escribe tu comentario público..."></textarea>
     <button onclick="publicarComentario()">Publicar</button>
     <div id="comentarios"></div>
 
     <hr />
-    <h3>✍️ Siembra tu propia semilla</h3>
+
+    <!-- ✍️ Aportes personales -->
+    <h3>Siembra tu propia semilla</h3>
     <textarea id="citaPersonal" placeholder="Tu cita bíblica (máx. 500 letras)"></textarea>
     <textarea id="reflexionPersonal" placeholder="Tu reflexión (máx. 1000 letras)"></textarea>
     <button onclick="guardarPropia()">Guardar mi aporte</button>
 
-    <footer><p>Created by JR</p></footer>
+    <!-- 👣 Pie de página con autoría -->
+    <footer><p>🌱 Created by JR · Cada semilla tiene un propósito</p></footer>
   </div>
 
+  <!-- 🧠 Script principal -->
   <script src="app.js"></script>
 </body>
 </html>
