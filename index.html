@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Semillas de Vida</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="huerto">
+    <img src="brote.png" alt="Brote espiritual" class="brote" />
+
+    <h2 id="saludo"></h2>
+    <blockquote id="cita"></blockquote>
+    <p id="reflexion"></p>
+
+    <img src="personaje.png" alt="Personaje espiritual" class="personaje" />
+    <audio id="musica" src="musica.mp3" loop autoplay></audio>
+
+    <div class="reacciones">
+      <button onclick="reaccionar(true)">👍</button>
+      <button onclick="reaccionar(false)">👎</button>
+      <span id="likes">0 👍 / 0 👎</span>
+    </div>
+
+    <textarea id="comentario" placeholder="Escribe tu comentario público..."></textarea>
+    <button onclick="publicarComentario()">Publicar</button>
+    <div id="comentarios"></div>
+
+    <hr />
+    <h3>✍️ Siembra tu propia semilla</h3>
+    <textarea id="citaPersonal" placeholder="Tu cita bíblica (máx. 500 letras)"></textarea>
+    <textarea id="reflexionPersonal" placeholder="Tu reflexión (máx. 1000 letras)"></textarea>
+    <button onclick="guardarPropia()">Guardar mi aporte</button>
+
+    <footer><p>Created by JR</p></footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
