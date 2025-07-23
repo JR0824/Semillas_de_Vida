@@ -1,4 +1,3 @@
-/* 🌌 Fondo espiritual */
 body {
   margin: 0;
   padding: 0;
@@ -8,7 +7,6 @@ body {
   text-align: center;
 }
 
-/* ✍️ Campos de texto */
 input, textarea {
   width: 80%;
   max-width: 600px;
@@ -21,7 +19,6 @@ input, textarea {
   color: #f0f0f0;
 }
 
-/* 🌿 Botones */
 button {
   padding: 0.7rem 1.5rem;
   background-color: #2e8b57;
@@ -34,7 +31,6 @@ button:hover {
   background-color: #3cb371;
 }
 
-/* 📖 Cita espiritual */
 blockquote {
   font-size: 1.2rem;
   font-style: italic;
@@ -43,7 +39,6 @@ blockquote {
   color: #c6f7e2;
 }
 
-/* 🧘 Personaje guía */
 .personaje {
   width: 250px;
   margin: 1rem auto;
@@ -52,12 +47,10 @@ blockquote {
   box-shadow: 0 0 15px rgba(255,255,255,0.1);
 }
 
-/* 👍👎 Reacciones */
 .reacciones {
   margin: 1rem;
 }
 
-/* 💬 Comentarios */
 .comentario {
   background: #1e1e1e;
   margin: 1rem auto;
@@ -68,43 +61,11 @@ blockquote {
   box-shadow: 0 0 5px rgba(255,255,255,0.05);
 }
 
-/* 🌱 Aporte personal */
 .aporte-personal {
   background-color: #254226;
   border-left: 4px solid #81c784;
 }
 
-/* 🌄 Portada simbólica (si se usa) */
-.portada {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-.contenido {
-  max-width: 600px;
-  padding: 2rem;
-}
-
-/* 🌾 Animación del brote */
-.semilla {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-}
-.semilla img {
-  width: 120px;
-  animation: brotar 2s ease-out forwards;
-}
-@keyframes brotar {
-  0% { transform: scale(0.1); opacity: 0; }
-  100% { transform: scale(1); opacity: 1; }
-}
-
-/* 🌬️ Espíritu activo */
 .espiritu-presente {
   background-image: url('luz.png');
   background-size: cover;
@@ -118,7 +79,6 @@ blockquote {
   100% { filter: brightness(1); }
 }
 
-/* 📎 Footer */
 footer {
   margin-top: 2rem;
   font-size: 0.9rem;
