@@ -1,8 +1,17 @@
 [
   {
-    "fecha": "2025-07-22",
     "texto": "La semilla se entierra para renacer.",
     "reflexion": "El silencio también nutre. Hoy deja que la luz entre desde adentro.",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "La tierra espera tu cuidado.",
+    "reflexion": "Haz de cada gesto un acto de presencia. Hoy puedes sembrar luz.",
+    "espiritu_activo": false
+  },
+  {
+    "texto": "Nada florece sin tiempo.",
+    "reflexion": "No apresures el brote. Confía en el ritmo divino.",
     "espiritu_activo": true
   }
 ]
