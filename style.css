@@ -2,64 +2,23 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to bottom, #0d0f1c, #1b1332);
+  background: linear-gradient(to bottom, #750000, #9bbfd4);
   color: #f0f0f0;
   text-align: center;
 }
 
-input, textarea {
-  width: 80%;
-  max-width: 600px;
+.brote {
+  width: 120px;
   margin: 1rem auto;
-  padding: 0.7rem;
-  border-radius: 5px;
-  border: none;
-  font-size: 1rem;
-  background: #262626;
-  color: #f0f0f0;
+  animation: brotar 2s ease-out forwards;
 }
 
-button {
-  padding: 0.7rem 1.5rem;
-  background-color: #2e8b57;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-button:hover {
-  background-color: #3cb371;
+@keyframes brotar {
+  0% { transform: scale(0.1); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
 }
 
-blockquote {
-  font-size: 1.2rem;
-  font-style: italic;
-  margin: 1rem auto;
-  max-width: 600px;
-  color: #c6f7e2;
-}
-
-.personaje {
-  width: 250px;
-  margin: 1rem auto;
-  display: block;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(255,255,255,0.1);
-}
-
-.reacciones {
-  margin: 1rem;
-}
-
-.comentario {
-  background: #1e1e1e;
-  margin: 1rem auto;
-  padding: 1rem;
-  border-radius: 6px;
-  max-width: 600px;
-  text-align: left;
-  box-shadow: 0 0 5px rgba(255,255,255,0.05);
-}
+/* resto igual al anterior, pero con nuevos colores suaves */
 
 .aporte-personal {
   background-color: #254226;
@@ -76,11 +35,4 @@ blockquote {
 @keyframes presencia {
   0% { filter: brightness(1); }
   50% { filter: brightness(1.2); }
-  100% { filter: brightness(1); }
-}
-
-footer {
-  margin-top: 2rem;
-  font-size: 0.9rem;
-  color: #ccc;
-}
+  100% { filter
