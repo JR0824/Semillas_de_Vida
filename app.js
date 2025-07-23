@@ -3,14 +3,14 @@ const API_KEY = "$2a$10$OdpoN/dA9hV6SHvsJ9c.wONOsie7tWX1GWbN839tI4zUxeeTXwA4W";
 const BIN_URL = `https://api.jsonbin.io/v3/b/${BIN_ID}`;
 const BIN_LATEST = `${BIN_URL}/latest`;
 
-// 🌿 Guardar nombre e iniciar la experiencia
+// 🌿 Guardar nombre e iniciar experiencia
 function guardarNombre() {
   const nombre = document.getElementById("nombreInput").value.trim() || "Anónimo";
   localStorage.setItem("nombreUsuario", nombre);
   document.getElementById("saludo").textContent =
     `🌿 Bienvenido, ${nombre}. Hoy te espera una nueva semilla. Dios te bendiga.`;
   cargarMensaje();
-  cargarComentarios(); // 👁️ Cargar comentarios compartidos
+  cargarComentarios(); // Inicia el jardín comunitario vacío
 }
 
 // 🔀 Mostrar mensaje aleatorio sin repetir
@@ -67,7 +67,7 @@ function reaccionar(id, positivo) {
   }
 }
 
-// 💬 Publicar comentario comunitario en JSONBin
+// 💬 Publicar primer comentario
 async function publicarComentario() {
   const texto = document.getElementById("comentario").value.trim();
   const nombre = localStorage.getItem("nombreUsuario") || "Anónimo";
@@ -98,12 +98,12 @@ async function publicarComentario() {
     document.getElementById("comentario").value = "";
     cargarComentarios();
   } catch (e) {
-    console.error("Error al publicar comentario:", e);
+    console.error("Error al publicar:", e);
     alert("No se pudo guardar tu comentario 🥀");
   }
 }
 
-// 🌍 Mostrar comentarios visibles para todos
+// 🌍 Mostrar comentarios desde el bin (inicialmente vacío)
 async function cargarComentarios() {
   try {
     const res = await fetch(BIN_LATEST, {
@@ -134,7 +134,7 @@ async function cargarComentarios() {
   }
 }
 
-// ✍️ Guardar aporte personal (solo local)
+// ✍️ Guardar aporte personal (solo visible para el visitante actual)
 function guardarPropia() {
   const nombre = localStorage.getItem("nombreUsuario") || "Anónimo";
   const citaP = document.getElementById("citaPersonal").value.trim();
