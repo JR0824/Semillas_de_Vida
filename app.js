@@ -1,9 +1,16 @@
+const BIN_ID = "688041de7b4b8670d8a5afca";
+const API_KEY = "$2a$10$OdpoN/dA9hV6SHvsJ9c.wONOsie7tWX1GWbN839tI4zUxeeTXwA4W";
+const BIN_URL = `https://api.jsonbin.io/v3/b/${BIN_ID}`;
+const BIN_LATEST = `${BIN_URL}/latest`;
+
+// 🌿 Guardar nombre e iniciar la experiencia
 function guardarNombre() {
   const nombre = document.getElementById("nombreInput").value.trim() || "Anónimo";
   localStorage.setItem("nombreUsuario", nombre);
   document.getElementById("saludo").textContent =
     `🌿 Bienvenido, ${nombre}. Hoy te espera una nueva semilla. Dios te bendiga.`;
   cargarMensaje();
+  cargarComentarios(); // 👁️ Cargar comentarios compartidos
 }
 
 // 🔀 Mostrar mensaje aleatorio sin repetir
@@ -60,26 +67,74 @@ function reaccionar(id, positivo) {
   }
 }
 
-// 💬 Publicar comentario
-function publicarComentario() {
+// 💬 Publicar comentario comunitario en JSONBin
+async function publicarComentario() {
   const texto = document.getElementById("comentario").value.trim();
-  if (!texto) return alert("Escribe tu comentario primero.");
   const nombre = localStorage.getItem("nombreUsuario") || "Anónimo";
-  const id = "comentario" + Date.now();
-  const div = document.createElement("div");
-  div.className = "comentario";
-  div.id = id;
-  div.innerHTML = `<strong>${nombre}</strong>: ${texto}
-    <div>
-      <button onclick="reaccionar('${id}', true)">👍</button>
-      <button onclick="reaccionar('${id}', false)">👎</button>
-      <span id="likes-${id}">0 👍 / 0 👎</span>
-    </div>`;
-  document.getElementById("comentarios").prepend(div);
-  document.getElementById("comentario").value = "";
+  if (!texto) return alert("Escribe tu comentario primero 🌿");
+
+  try {
+    const res = await fetch(BIN_LATEST, {
+      headers: { "X-ACCESS-KEY": API_KEY }
+    });
+    const data = await res.json();
+    const comentarios = data.record || [];
+
+    comentarios.unshift({
+      nombre,
+      texto,
+      fecha: new Date().toISOString()
+    });
+
+    await fetch(BIN_URL, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+        "X-ACCESS-KEY": API_KEY
+      },
+      body: JSON.stringify(comentarios)
+    });
+
+    document.getElementById("comentario").value = "";
+    cargarComentarios();
+  } catch (e) {
+    console.error("Error al publicar comentario:", e);
+    alert("No se pudo guardar tu comentario 🥀");
+  }
 }
 
-// ✍️ Guardar aporte personal
+// 🌍 Mostrar comentarios visibles para todos
+async function cargarComentarios() {
+  try {
+    const res = await fetch(BIN_LATEST, {
+      headers: { "X-ACCESS-KEY": API_KEY }
+    });
+    const data = await res.json();
+    const comentarios = data.record || [];
+
+    const contenedor = document.getElementById("comentarios");
+    contenedor.innerHTML = "";
+
+    comentarios.forEach(({ nombre, texto }) => {
+      const id = "comentario-" + Math.random().toString(36).substring(2, 9);
+      const div = document.createElement("div");
+      div.className = "comentario";
+      div.id = id;
+      div.innerHTML = `<strong>${nombre}</strong>: ${texto}
+        <div>
+          <button onclick="reaccionar('${id}', true)">👍</button>
+          <button onclick="reaccionar('${id}', false)">👎</button>
+          <span id="likes-${id}">0 👍 / 0 👎</span>
+        </div>`;
+      contenedor.appendChild(div);
+    });
+  } catch (e) {
+    console.error("Error al cargar comentarios:", e);
+    alert("No se pudieron cargar los comentarios 🌧️");
+  }
+}
+
+// ✍️ Guardar aporte personal (solo local)
 function guardarPropia() {
   const nombre = localStorage.getItem("nombreUsuario") || "Anónimo";
   const citaP = document.getElementById("citaPersonal").value.trim();
@@ -89,6 +144,7 @@ function guardarPropia() {
     alert("Completa ambos campos antes de guardar tu aporte 🌿");
     return;
   }
+
   if (citaP.length > 500 || refleP.length > 1000) {
     alert("Tu aporte excede el límite permitido.");
     return;
@@ -107,6 +163,7 @@ function guardarPropia() {
       <span id="likes-${id}">0 👍 / 0 👎</span>
     </div>`;
   document.getElementById("comentarios").prepend(div);
+
   document.getElementById("citaPersonal").value = "";
   document.getElementById("reflexionPersonal").value = "";
 }
