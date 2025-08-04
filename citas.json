@@ -1,17 +1,232 @@
 [
   {
-    "texto": "La semilla se entierra para renacer.",
-    "reflexion": "El silencio también nutre. Hoy deja que la luz entre desde adentro.",
+    "texto": "Porque yo sé los pensamientos que tengo acerca de vosotros, dice Jehová,penamiento e paz, y no de mal, para daros el fin que esperáis.(Jeremías 29:11)",
+    "reflexion": "En medio de la incertidumbre, cuando el camino parece confuso o lleno de obstáculos, esta promesa resuena como un susurro de esperanza divina. “Pensamientos de paz” no significa ausencia de lucha, sino presencia de propósito. Dios no improvisa con tu vida—Él la diseña con ternura y visión eterna. Cuando sientas que no encajas o que el futuro se te escapa, recuerda: hay un fin que ya fue pensado para ti, y ese fin está lleno de sentido, plenitud y luz. Tu espera no es en vano—es parte de la siembra.",
     "espiritu_activo": true
   },
   {
-    "texto": "La tierra espera tu cuidado.",
-    "reflexion": "Haz de cada gesto un acto de presencia. Hoy puedes sembrar luz.",
+    "texto": "Más bien, busquen primeramente el reino de Dios y su justicia, y todas estas cosas les serán añadidas.(Mateo 6:33) .",
+    "reflexion": "Dios no desprecia tus necesidades, pero te recuerda que lo más profundo no se compra ni se acumula, se recibe cuando el alma decide hacer de su voluntad su mayor deseo. Hoy puedes elegir lo eterno primero 🌱. El resto llegará como añadidura..",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "pues está escrito: Sean santos, porque yo soy santo (1 Pedro 1:16).",
+    "reflexion": "La santidad no es una perfección rígida ni una lista de prohibiciones. Es una invitación divina a parecernos al corazón de Dios, a caminar con su carácter en cada acto, decisión y pensamiento. “Sean santos” es más que un mandato: es una declaración de identidad y destino. No estás llamado solo a obedecer, estás llamado a reflejar.",
     "espiritu_activo": false
   },
   {
-    "texto": "Nada florece sin tiempo.",
-    "reflexion": "No apresures el brote. Confía en el ritmo divino.",
+    "texto": "Quien encubre su pecado jamás prospera; quien lo confiesa y lo deja, halla perdón.(Proverbios 28:13).",
+    "reflexion": "El alma que guarda silencio ante su propio error carga un peso invisible que impide florecer. Este verso nos recuerda que la verdadera libertad no está en ocultar, sino en confesar y dejar atrás. Dios no desprecia al que cae, pero sí al que insiste en esconderse. ",
+    "espiritu_activo": false
+  },
+  {
+    "texto": "El Señor es mi luz y mi salvación; ¿a quién temeré? El Señor es el baluarte de mi vida; ¿quién podrá amedrentarme?(Salmo 27:1).",
+    "reflexion": "Cuando la oscuridad intenta envolverte, esta palabra se enciende como faro: “El Señor es mi luz”. No se trata solo de ver con claridad, sino de saber quién camina contigo. Él es salvación, refugio, baluarte—una fuerza que no se quiebra, un muro que no cede, una promesa que no falla. ",
     "espiritu_activo": true
-  }
-]
+  },
+  {
+    "texto": "De aquel que cree en mí, como dice* la Escritura, brotarán ríos de agua viva (Juan 7:38).",
+    "reflexion": "Creer es más que asentir; es conectar profundamente con su Espíritu. Y en esa conexión, brotan palabras de paz, gestos de compasión, obras que riegan el mundo con luz. ",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "No se amolden al mundo actual, sino sean transformados mediante la renovación de su mente. Así podrán comprobar cuál es la voluntad de Dios, buena, agradable y perfecta (Romanos 12:2).",
+    "reflexion": "La fe no solo cambia lo que creemos—transforma cómo pensamos. Este verso nos recuerda que hay una manera divina de ver la vida: no por moldes humanos, sino por una mente renovada desde lo alto. Amoldarse al mundo es perder la forma del cielo.",
+    "espiritu_activo": false
+  },
+  {
+    "texto": "Bueno es el Señor; es refugio en el día de la angustia, y protector de los que en él confían (Nahúm 1:7).",
+    "reflexion": "Dios no solo está cerca—Él protege activamente a quienes confían en Él. Su bondad no caduca, su refugio no se cierra, su escudo no falla. Confiar en Él no elimina la tormenta, pero te asegura una roca que no se mueve.",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "El que refrena su lengua protege su vida, pero el ligero de labios provoca su ruina (Proverbios 13:3).",
+    "reflexion": "Las palabras son semillas con poder: pueden edificar o desmoronar. Este proverbio nos recuerda que la prudencia verbal es guardiana del alma. Refrenar la lengua no es censurarse por temor, sino hablar desde el discernimiento, desde el respeto, desde el espíritu. El que habla sin pensar se expone, se desgasta, y a veces abre heridas que tardan en sanar. Hoy, tu silencio puede ser un acto de sabiduría. Y tu palabra, cuando es medida, puede ser medicina, guía o paz.",
+    "espiritu_activo": false
+  },
+  {
+    "texto": "es mi Dios, el peñasco en que me refugio. Es mi escudo, el poder que me salva, ¡mi más alto escondite! Él es mi protector y mi salvador. ¡Tú me salvaste de la violencia! (2 Samuel 22:3).",
+    "reflexion": "En Él, los golpes no son finales, y la violencia no tiene la última palabra. Su fuerza es refugio, y su salvación, un canto desde lo profundo. Hoy, puedes correr hacia esa roca que no se mueve.",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "Pero ahora, así dice el Señor, el que te creó, Jacob, el que te formó, Israel: «No temas, que yo te he redimido; te he llamado por tu *nombre; tú eres mío.(Isaías 43:1).",
+    "reflexion": "Antes que el temor tenga forma, Dios ya ha pronunciado identidad sobre ti. “Tú eres mío” no es solo consuelo—es pertenencia, cuidado, elección. Este verso no dice “serás mío cuando te comportes”, sino “yo te formé, te llamé, te redimí”. Es gracia que antecede al mérito.",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "Carguen con mi yugo y aprendan de mí, pues yo soy apacible y humilde de corazón, y encontrarán descanso para su alma.(Mateo 11:29).",
+    "reflexion": "Aquí no se trata solo de seguirle, sino de aprender de Él: cómo ser apacible sin rendirse, cómo ser humilde sin apagarse. Y en ese aprendizaje, el alma deja de correr y encuentra el sosiego que tanto buscaba.. ",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "El Señor cumplirá en mí su propósito. Tu gran amor, Señor, perdura para siempre; ¡no abandones la obra de tus manos!(Salmo 138:8).",
+    "reflexion": "Cuando sientas que algo se rompió o que has perdido el rumbo, recuerda: Dios sigue obrando, sigue tallando sentido, sigue cumpliendo lo que soñó para ti desde antes del tiempo. Tu historia está en proceso, y su amor sostiene cada trazo. ",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "Como palmeras florecen los justos; como cedros del Líbano crecen.(Salmo 92:12).",
+    "reflexion": "Dios no te planta para lo pasajero. Su diseño en ti es duradero, resistente y lleno de vida. Hoy, puedes mirar hacia el cielo y saber que estás creciendo en dirección de luz. ",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "Quien se conduce con integridad, anda seguro; quien anda en malos pasos será descubierto (Proverbios 10:9).",
+    "reflexion": "La integridad no es solo una virtud moral—es camino de seguridad espiritual. Este verso muestra que quien vive en verdad, sin doblez, puede caminar sin temor, porque sus pasos están sostenidos por luz. En cambio, los caminos ocultos, las decisiones oscuras, siempre terminan por revelarse. Nada que se esconde en sombra permanece sin ser descubierto.",
+    "espiritu_activo": false
+  },
+  {
+    "texto": "Pero tú, Señor, me rodeas cual escudo; tú eres mi gloria; ¡tú mantienes en alto mi cabeza! (Salmo 3:3).",
+    "reflexion": "En los momentos donde el peso emocional busca inclinar la cabeza hacia el suelo, este versículo es un recordatorio divino: Dios no solo te cubre, te levanta. Ser rodeado por Él como escudo es más que protección—es intimidad, es afirmación, es la certeza de que tu gloria no viene del aplauso humano, sino de Su presencia en ti.",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "El que siembra para agradar a su naturaleza pecaminosa, de esa misma naturaleza cosechará destrucción; el que siembra para agradar al Espíritu, del Espíritu cosechará vida eterna.(Gálatas 6:8).",
+    "reflexion": "Este verso nos revela que la intención detrás de lo que sembramos determina la cosecha. Sembrar para la carne es elegir lo inmediato, lo egoísta, lo que satisface pero no edifica. En cambio, sembrar para el Espíritu es abrazar lo invisible, lo eterno, lo que transforma desde adentro y produce fruto duradero. ",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "No te desvíes ni a diestra ni a siniestra; apártate de la maldad. (Proverbios 4:27).",
+    "reflexion": "Tu fidelidad se refleja en la dirección que eliges cada día. Hoy puedes decidir avanzar sin giro, sin desvío... con integridad hacia la luz. ",
+    "espiritu_activo": false
+  },
+  {
+    "texto": "El Señor es mi fuerza y mi cántico; él es mi *salvación. Él es mi Dios, y lo alabaré; es el Dios de mi padre, y lo enalteceré.(Éxodo 15:2).",
+    "reflexion": "Dios no es solo fuerza: es la melodía que surge en lo íntimo cuando se ha vencido con Él. Alabarle no es deber, es impulso. Enaltecerle no es tradición, es respuesta a Su fidelidad generacional—al Dios que ha sido refugio de nuestros padres, y que sigue siendo fuerza para nosotros hoy.",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "Los que confían en el Señor son como el monte *Sión, que jamás será conmovido, que permanecerá para siempre.(Salmo 125:1).",
+    "reflexion": "La permanencia no está en las circunstancias, sino en quién te sostiene. Y si confías en el Señor, tu espíritu permanece… no por fuerza humana, sino por fidelidad divina. ",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "Sólo el que procede con justicia y habla con rectitud, el que rechaza la ganancia de la extorsión y se sacude las manos para no aceptar soborno, el que no presta oído a las conjuras de asesinato y cierra los ojos para no contemplar el mal.(Isaías 33:15).",
+    "reflexion": "La permanencia no está en las circunstancias, sino en quién te sostiene. Y si confías en el Señor, tu espíritu permanece… no por fuerza humana, sino por fidelidad divina.",
+    "espiritu_activo": false
+  },
+  {
+    "texto": "Jehová es mi pastor; nada me faltará. (Salmo 23:1).",
+    "reflexion": "Esta declaración no es simple poesía… es confianza absoluta. Cuando reconoces que Jehová es tu pastor, estás diciendo que tu vida no está a la deriva—está guiada, cuidada y sustentada. Nada me faltará no significa que todo será fácil, sino que en cada estación habrá provisión suficiente, dirección clara y consuelo profundo.",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "Dichosos los de corazón limpio, porque ellos verán a Dios.(Mateo 5:8).",
+    "reflexion": "Ver a Dios no solo es un privilegio futuro—es un despertar presente. Un corazón limpio no es ingenuo, sino depurado por el fuego del quebranto, la confesión, el perdón. La pureza aquí es transparencia espiritual, una apertura sin máscara, sin reservas, sin doble fondo.",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "El que con sabios anda, sabio se vuelve; el que con necios se junta, saldrá mal parado.(Proverbios 13:20).",
+    "reflexion": "Tu entorno influye más de lo que imaginas. Este versículo nos recuerda que la sabiduría se contagia… y la necedad también. Caminar con sabios no es solo aprender de sus palabras, sino absorber su manera de ver, decidir y vivir. En cambio, rodearse de necios no es neutral: es sembrar pasos hacia el tropiezo.",
+    "espiritu_activo": false
+  },
+  {
+    "texto": "Dios es nuestro amparo y nuestra fortaleza, nuestra ayuda segura en momentos de angustia.(Salmo 46:1).",
+    "reflexion": "En las tormentas, cuando todo parece perder estabilidad, este verso se convierte en ancla: “Dios es nuestro amparo” no es solo una idea reconfortante, es una realidad que se prueba en la angustia. Su fortaleza no siempre evita los momentos difíciles, pero los atraviesa contigo—como un muro que no cede, como una presencia que no desaparece. ",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "El que cree en el Hijo tiene vida eterna; pero el que rechaza al Hijo no sabrá lo que es esa vida, sino que permanecerá bajo el castigo de Dios.(Juan 3:36).",
+    "reflexion": "Rechazar al Hijo es rechazar la fuente misma de la gracia, el puente hacia el Padre, el amor que salva. ",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "El que ama a su hermano permanece en la luz, y no hay nada en su vida* que lo haga tropezar.(1 Juan 2:10).",
+    "reflexion": "El amor fraterno no es emoción pasajera: es evidencia espiritual. Y quien ama así no solo evita el tropiezo… ilumina el camino de otros también.",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "El Señor es justo en todos sus caminos y bondadoso en todas sus obras.(Salmo 145:17).",
+    "reflexion": "En cada sendero que recorres junto a Él, puedes confiar: no te llevará por caminos injustos, ni por procesos estériles, sino por sendas donde su bondad sostiene, corrige y nutre. ",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "El temor del Señor es un baluarte seguro que sirve de refugio a los hijos.(Proverbios 14:26).",
+    "reflexion": "El temor del Señor no es miedo paralizante—es reverencia activa, una postura del corazón que reconoce Su majestad y vive conforme a Su sabiduría. Este versículo revela que quien camina con ese respeto profundo hacia Dios no solo encuentra dirección… encuentra refugio. ",
+    "espiritu_activo": false
+  },
+  {
+    "texto": "Yo soy la vid y ustedes son las ramas. El que permanece en mí, como yo en él, dará mucho fruto; separados de mí no pueden ustedes hacer nada.(Juan 15:5).",
+    "reflexion": "No se trata solo de creer en Él, sino de permanecer, de mantenerse nutrido por Su presencia. Cuando estás unido a Él, la vida fluye con propósito, los frutos brotan con sentido, y lo que haces tiene raíz en lo eterno. Separados de Él, incluso las obras más nobles pueden perder su poder interior. Conectado, hasta lo pequeño florece. La unión con Cristo no es accesorio—es la fuente, el alma del verdadero fruto espiritual. ",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "Así que podemos decir con toda confianza: "El Señor es quien me ayuda; no temeré. ¿Qué puede hacerme el ser humano?(Hebreos 13:6).",
+    "reflexion": "Este verso es declaración valiente, confianza tejida con fe profunda: “El Señor es quien me ayuda.” No es arrogancia ni negación del dolor humano—es certeza de que ningún poder terrenal puede opacar la presencia divina. El temor se disuelve cuando sabes que tu auxilio viene de lo alto, que no estás solo en la batalla. ",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "Yo soy la resurrección y la vida. El que cree en mí vivirá, aunque muera;(Juan 11:25).",
+    "reflexion": "La resurrección no solo ocurre en el último día… ocurre ahora, en cada corazón que se levanta del dolor, la culpa o el miedo. Su vida no se presta, se regala—y cuando la recibes, el alma se vuelve eterna, incluso si el cuerpo se apaga. ",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "El Señor afirma los pasos del hombre cuando le agrada su modo de vivir;(Salmo 37:23-24).",
+    "reflexion": "Los pasos humanos pueden parecer inciertos, pero cuando el modo de vivir está alineado con la voluntad de Dios, cada paso es afirmado, sostenido, acompañado. Este versículo nos enseña que no se trata solo de andar… se trata de agradar a Dios con nuestro andar. Y cuando eso ocurre, Él mismo se encarga de fortalecer el camino.",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "Dios aborrece hasta la oración del que se niega a obedecer la ley.(Proverbios 28:13).",
+    "reflexion": "Este verso confronta, sacude y llama al despertar espiritual: la obediencia no es opcional en la vida del creyente. Cuando alguien se niega a vivir conforme a la ley de Dios, su oración pierde coherencia, como si hablara sin escuchar. No se trata de exigir perfección, sino de reconocer que la oración auténtica nace de un corazón rendido. ",
+    "espiritu_activo": false
+  },
+  {
+    "texto": "Voy a quebrar el yugo que te oprime, voy a romper tus ataduras.(Nahúm 1:13).",
+    "reflexion": "Dios no es indiferente al dolor de los que aman su nombre. El "yugo que te oprime" no es solo una carga física o externa—es todo aquello que ahoga tu propósito, nubla tu esperanza, o encadena tu espíritu. Con esta promesa, Dios actúa como liberador, rompiendo ataduras que parecían eternas, devolviendo aire, espacio, posibilidad. ",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "Cuando los malvados avanzan contra mí para devorar mis carnes, cuando mis enemigos y adversarios me atacan, son ellos los que tropiezan y caen.(Salmos 27:2)",
+    "reflexion": "El que mucho abre sus labios tendrá calamidad. ",
+    "espiritu_activo": false
+  },
+  {
+    "texto": "Jehová te bendiga y te guarde.(Números 6:24)",
+    "reflexion": "Es una semilla que no se marchita: cada vez que se pronuncia, se renueva el pacto de cuidado. No es genérica—es personal. Dios no solo da… Él cuida lo que da. ",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "el Señor te mire con agrado y te extienda su amor.(Números 6:25)",
+    "reflexion": "No es solo que Dios observe, sino que mire “con agrado”—como quien contempla con ternura lo que ama. Que te mire así significa que tu existencia le alegra, le honra, le conmueve. Y esa mirada da paso al gesto más profundo: “extender su amor” es derramar gracia, cercanía, protección, favor.",
+    "espiritu_activo": false
+  },
+  {
+    "texto": "El Señor me ha pagado conforme a mi justicia, me ha premiado conforme a la limpieza de mis manos;(2 Samuel 22:21).",
+    "reflexion": "Cuando el corazón busca agradarle, el Señor responde con honra, respaldo y recompensa espiritual. No es mérito humano, es fidelidad divina a quienes eligen andar con integridad.",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "el Señor te muestre su favor y te conceda la paz.(Números 6:26)",
+    "reflexion": "Te muestre su favor es como si Dios dijera: Te veo, te elijo, te respaldo. Te conceda la paz es su manera de susurrar: Aquí estoy, habita tranquilo.",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "Aunque mi padre y mi madre me abandonen, el Señor me recibirá en sus brazos.(Salmo 27:10)",
+    "reflexion": "Este versículo resuena con un amor que trasciende lo humano: el Señor nunca abandona, incluso cuando quienes deberían amarnos más nos fallan. Es una promesa de adopción espiritual, de pertenencia incondicional, de abrazo eterno. Para quien se siente solo, excluido o herido, esta es una palabra que acaricia el alma.",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "Aun cuando un ejército me asedie, no temerá mi *corazón; aun cuando una guerra estalle contra mí, yo mantendré la confianza.(Salmos 27:3).",
+    "reflexion": "Aquí, la guerra no representa solo un conflicto literal, sino las batallas espirituales, emocionales o sociales que enfrentamos. Y sin embargo… el corazón permanece sin temor porque está anclado en la presencia de Dios.",
+    "espiritu_activo": false
+  },
+  {
+    "texto": "Oye, Señor, mi voz cuando a ti clamo; compadécete de mí y respóndeme.(Salmo 27:7).",
+    "reflexion": "Es la expresión más vulnerable del creyente que clama con fe, confiando en la misericordia divina. ",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "El que habita al abrigo del Altísimo se acoge a la sombra del Todopoderoso.(Salmo 91:1).",
+    "reflexion": "Este versículo es mucho más que protección física: es comunión profunda. Habitar al abrigo del Altísimo no es visitar de vez en cuando, es permanecer, descansar, formar vida bajo Su cobertura. Y acogerse a la sombra del Todopoderoso es ceder control, confiar en que en esa sombra hay descanso, fortaleza y defensa sobrenatural. ",
+    "espiritu_activo": true
+  },
+  {
+    "texto": "Yo le digo al Señor: Tú eres mi refugio, mi fortaleza, el Dios en quien confío.(Salmo 91:2).",
+    "reflexion": "Llamar a Dios refugio y fortaleza revela que no solo se busca protección, sino energía para seguir. Él no es solo quien cubre… es quien impulsa. Y confiar en Él no es ignorar la incertidumbre, sino mirar más allá de ella, reconociendo que su presencia es más real que cualquier miedo.",
+    "espiritu_activo": false
+  },
+  {
+    "texto": "Sólo él puede librarte de las trampas del cazador y de mortíferas plagas,pues te cubrirá con sus plumas y bajo sus alas hallarás refugio. ¡Su verdad será tu escudo y tu baluarte!(Salmo 91:3.4).",
+    "reflexion": "No se trata sólo de librarse del cazador o de la plaga… se trata de un acto de cobertura que es profundamente amoroso: “te cubrirá con sus plumas”.",
+    "espiritu_activo": true
+  },
+  
